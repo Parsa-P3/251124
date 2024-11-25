@@ -44,7 +44,7 @@
         // hace referencia al elemento que le pasemos por parametro en las etiquetas HTML
         function eliminarPelicula(boton) {
             let paraEliminar = document.getElementsByClassName("peliculaItem");
-            paraEliminar[0].remove();
+            boton.parentNode.remove();
             //Añadir lógica para eliminar el elemento li, que es el elemento padre del button
         }
     </script>
