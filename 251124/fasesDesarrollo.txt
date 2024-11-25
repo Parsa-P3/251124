@@ -1,0 +1,9 @@
+1- En primer lugar, agrego la estructura principal que falta en el cuerpo = "Main"
+
+2- Luego creé la lista y su contenido. en main  usando etiquetas ul y li  
+2.1- les dado un valor para identificar sus clases y añadido el buton para function de eliminar
+
+3- Luego, antes de pasar a la codificación js, hice lo que me pidieron en la página CSS, respectivamente. con link tengo conectado el css y html
+3.1- Después de escribir los códigos solicitados, también corregí las codigos preescrito en style que deberia corregir, vi una llamada de clase incorrecta y un espacio mal colocado.
+3.2- Revisé todo y me di cuenta de que ingresé correctamente los códigos CSS solicitados y que la página tenía el aspecto esperado.
+

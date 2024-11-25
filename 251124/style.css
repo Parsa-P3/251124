@@ -1,0 +1,79 @@
+/* 
+Body:
+ - Cambia la fuente de la página a Arial o cualquier otra fuente sans-serif +
+ - Elimina el margen predeterminado del navegador +
+ - Elimina el padding (espaciado interior) predeterminado del navegador +
+ - Asignar un color de fondo claro para toda la página. Elige el que mas te guste. +
+
+Header:
+ - Un color de fondo oscuro +
+ - El color de texto debe ser blanco +
+ - Añadimos padding de 20px +
+ - Centra el texto dentro del header con text-align +
+
+Elemento con el identificador peliculas-lista:
+ - Elimina los puntos de las listas +
+ - Elimina el padding (espacio interior) +
+ - Añade un margen por encima de la lista de 20px +
+ - Centra la lista en la página con text-align +
+
+Elementos con la clase pelicula-item:
+ - Fondo blanco +
+ - Margen de 10px +
+ 
+Etiqueta button que está dentro del elemento con la clase pelicula-item:
+ - Un color de fondo rojo para llamar la atención +
+ - El color de texto debe ser blanco +
+ - Quitar el borde +
+
+Etiqueta button que está dentro del elemento con la clase pelicula-item al pasar ratón por encima:
+    - Cambiar el color de fondo a un rojo mas oscuro  +
+
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(78, 58, 126, 0.719);
+
+}
+
+header {
+    color: aliceblue;
+    background-color: rgb(37, 6, 87);
+    padding: 20px;
+    text-align: center;
+}
+
+#peliculasLista {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.peliculaItem {
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+button {
+    background-color: red;
+    color: aliceblue;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3 px;
+    border: 0;
+}
+
+button:hover {
+    background-color: brown;
+}
