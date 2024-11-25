@@ -17,35 +17,12 @@
             <li  class="peliculaItem"><span> JOKER4 </span> <button onclick="eliminarPelicula(this)">Eliminar</button></li>
         </ul>
     </main>
-    <!-- Añadir aqui la estructura con las etiquetas faltantes -->
-	<!-- Crear la lista de películas: 
-		A continuación, crea una lista de películas dentro de un elemento <ul> (lista desordenada). 
-		El atributo identificador "peliculasLista" se debe usar para identificar esta lista de películas.
-	
-		Dentro de la lista, cada película estará representada como un ítem (<li>) con la clase "peliculaItem". 
-		En cada ítem, coloca el nombre de la película dentro de una etiqueta <span> y un botón (<button>) para eliminar la película. 
-
-		El botón (<button>) debe tener un atributo onclick que ejecute la función eliminarPelicula(this). 
-		* "this" hace referencia al propio elemento "button". Debéis ponerlo tal cual:  	
-			<button onclick="eliminarPelicula(this)">Eliminar</button>
-
-        Valida el documento html y el fichero css y corrigelos.
-
-        Adjunta en el proyecto una captura con las extensiones instaladas de tu VSCode.
-
-        Describe brevemente las fases de desarrollo que has identificado en este proyecto 
-        en el fichero de texto fasesDesarrollo.txt
-        -->
-
-    <!-- Podeis dejar aqui toda la logica de javascript o llevarlo a un fichero externo .js recordad que si lo haceis en la etiqueta head debeis utilizar defer -->
     <script>
-        //Funcion para eliminar pelicula 
-        // la variable "boton" dentro de la función
-        // hace referencia al elemento que le pasemos por parametro en las etiquetas HTML
+
         function eliminarPelicula(boton) {
             let paraEliminar = document.getElementsByClassName("peliculaItem");
             boton.parentNode.remove();
-            //Añadir lógica para eliminar el elemento li, que es el elemento padre del button
+            
         }
     </script>
 

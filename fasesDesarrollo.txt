@@ -7,3 +7,4 @@
 3.1- Después de escribir los códigos solicitados, también corregí las codigos preescrito en style que deberia corregir, vi una llamada de clase incorrecta y un espacio mal colocado.
 3.2- Revisé todo y me di cuenta de que ingresé correctamente los códigos CSS solicitados y que la página tenía el aspecto esperado.
 
+4-Finalmente, el deseado "Completé la función del botón eliminador" ; primero definí la lista y luego la codifiqué para eliminarla al hacer clic usando "boton.parentNode.remove();"
